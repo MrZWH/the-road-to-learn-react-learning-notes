@@ -1,8 +1,9 @@
 # 《React 学习之道》The Road to learn React (简体中文版) 的读书笔记以及书中项目的实践 
 > 通往 React 实战大师之旅：掌握 React 最简单，且最实用的教程。  
 
-這本書的網址是 [http://leanpub.com/the-road-to-learn-react-chinese](http://leanpub.com/the-road-to-learn-react-chinese)  
-此版本發布於 2018-02-06  
+這本書的網址是 [http://leanpub.com/the-road-to-learn-react-chinese](http://leanpub.com/the-road-to-learn-react-chinese)  
+[简体中文版 github 地址](https://github.com/the-road-to-learn-react/the-road-to-learn-react-chinese)  
+此版本發布於 2018-02-06  
 **書籍目錄**  
 前言  
 读者赠言  
