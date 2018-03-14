@@ -17,5 +17,12 @@
     "url": "https://github.com/MrZWH/the-road-to-learn-react-learning-notes/issues"
   },
   "homepage": "https://github.com/MrZWH/the-road-to-learn-react-learning-notes#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
 }
