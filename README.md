@@ -80,3 +80,17 @@ React 并不是一个 SPA 框架，而是一个视图库。也就是 MVC（Model
 不同的声明方式应该在什么时候使用呢？  
 作者的建议是，在任何你可以使用 const 的时候使用它。这表示尽管对象和数组的内容是可以被修改的,你仍希望保持
 该数据结构不可变。而如果你想要改变你的变量,就使用 let 去声明它。React 和它的生态是拥抱不可变的。这就是为什么 const 应该是你定义一个变量时的默认选择。当然,一个复杂的对象中的内容还是可能会被改变,请当心这种改变。
+
+## 使用真实的 api  
+生命周期方法：  
+- constructor(props)
+- componentWillMount()
+- render()
+- componentDidMount()
+- componentWillReceiveProps(nextProps)
+- shouldComponentUpdate(nextProps, nextState)
+- componentWillUpdate(nextProps,nextState)
+- componentDidUpdate(prevProps, prevState)
+- componentWillUnmount()
+- componentDidCatch(error, info)  
+
