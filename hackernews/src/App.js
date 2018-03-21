@@ -18,7 +18,7 @@ const isSearched = (searchTerm) => (item) =>
     item.title.toLowerCase().includes(searchTerm.toLowerCase())
   
 const updateSearchTopStoriesState = (hits, page) => (prevState) => {
-  const {searchKey, results} = this.prevState
+  const {searchKey, results} = prevState
 
   const oldHits = page !== 0
   ? results[searchKey].hits
@@ -148,7 +148,7 @@ class App extends Component {
           </div>
           : <Table
             list={list}
-            sortKey={sortKey}
+            onDismiss={this.onDismiss}
           />
         }
         <div className="interactions">
